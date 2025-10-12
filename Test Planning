@@ -1,6 +1,7 @@
 TEST PLANING
 Project             : Website Resonance Dibimbing (https://resonance.dibimbing.id/login)
-Objectives          : Melakukan validasi fungsi semua fitur pada website sudah berjalan dengan standar kualitas yang disepakati, mengidentifikasi bug hingga memastikan status bug close.
+Objectives          : Melakukan validasi fungsi semua fitur pada website sudah berjalan 
+dengan standar kualitas yang disepakati, mengidentifikasi bug hingga memastikan status bug close.
 Lingkup Pengujian 	: Website Resonance Dibimbing (https://resonance.dibimbing.id/login)
 Jenis Testing 	    : Normal Test, Negative Test, Regression Test, API Test
 Strategi Testing    : Manual Testing, Automation Testing
