@@ -1,8 +1,8 @@
 Pemilihan Fitur & Analisis Requirement
 Fitur yang diuji:
-Validasi fitur "Buat Akun?" -- Penting melakukan testing pada fitur registrasi agar user dapat masuk dengan mudah. Gagal buat akun, user tidak bisa create ticket, maka website tidak berfungsi.
-Validasi fitur "Login" dengan akun yang sudah terdaftar -- Penting untuk menguji, data username dan password yang diregistrasikan berhasil diproses pada halaman login.
-Validasi fungsi button "Create Ticket" -- Part crucial, karena merupakan pintu utama menuju submit ticket, sebelum bisa masuk ke halaman submit tiket, jika gagal create tiket maka website tidak brfungsi sesuai tujuan pembuatan.
-Validasi fitur "Submit Ticket" -- Part crucial, semua kendala user dideskripsikan pada halaman submit ticket, dan halaman ini memuat beberapa fitur lain, seperti "form describe your needs" dan "upload image". Jika, user gagal menginput pada salah satu bagian maka, user tidak akan bisa lanjut untuk submit ticket. Jika, image tidak berhasil terupload, bug sulit diidentifikasi oleh tim dev.
-Validasi fitur "Date" -- User dapat mengecek status tiket yang dibuat pada tanggal tertentu
-Validasi fitur sort by "Newest" -- Memastikan halaman yang muncul berupa tiket-tiket yang baru di post, dengan batas waktu hingga yesterday. Tidak menampilkan tiket-tiket yang sudah lama di-create.
+Validasi fitur "Buat Akun?" -- acceptance criteria, user dapat create account dan setting password dengan mudah dan cepat.
+Validasi fitur "Login" dengan akun yang sudah terdaftar -- acceptance criteria, user dapat login dengan email dan password yang sudah terdaftar. 
+Validasi fungsi button "Create Ticket" -- acceptance criteria, user success create ticket.
+Validasi fitur "Submit Ticket" -- Part crucial, semua kendala user dideskripsikan pada halaman submit ticket, dan halaman ini memuat beberapa fitur lain, seperti "form describe your needs" dan "upload image". Jika, user gagal menginput pada salah satu bagian maka, user tidak akan bisa lanjut untuk submit ticket. Jika, image tidak berhasil terupload, bug sulit diidentifikasi oleh tim dev. Acceptance criteria, user success submit ticket dan tiket muncul pada halaman active issue
+Validasi fitur "Date" -- User dapat mengecek status tiket yang dibuat pada tanggal tertentu.
+Validasi fitur sort by "Newest" -- Memastikan halaman yang muncul berupa tiket-tiket yang baru di post, dengan batas waktu hingga yesterday. Tidak menampilkan tiket-tiket yang sudah lewat dari 2 hari di-create.
