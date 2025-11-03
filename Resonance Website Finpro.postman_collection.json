@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "0d406af2-978e-4145-b66f-68a9a4129fbb",
+		"name": "Resonance Website Finpro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46713469",
+		"_collection_link": "https://adrynivanna.postman.co/workspace/Adryn-Ivanna's-Workspace~289abf46-f3ec-405c-8de4-49cc91ff4361/collection/46713469-0d406af2-978e-4145-b66f-68a9a4129fbb?source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get Active Ticket",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://resonance.dibimbing.id/api/rest/activeTickets?date=2025-10-12&order=VOTE",
+					"protocol": "https",
+					"host": [
+						"resonance",
+						"dibimbing",
+						"id"
+					],
+					"path": [
+						"api",
+						"rest",
+						"activeTickets"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2025-10-12"
+						},
+						{
+							"key": "order",
+							"value": "VOTE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"usernameOrEmail\": \"adrynivannatoban@gmail.com\",\n  \"password\": \"231966#\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://resonance.dibimbing.id/api/rest/login",
+					"protocol": "https",
+					"host": [
+						"resonance",
+						"dibimbing",
+						"id"
+					],
+					"path": [
+						"api",
+						"rest",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Ticket",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Ticket by API test",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,id;q=0.8"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://resonance.dibimbing.id"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://resonance.dibimbing.id/new"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Opera\";v=\"122\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0"
+					},
+					{
+						"key": "Cookie",
+						"value": "_gcl_aw=GCL.1759024995.EAIaIQobChMI-piN3q76jwMV-R6DAx3utwGpEAAYASAAEgLMy_D_BwE; _gcl_gs=2.1.k1^$i1759024993^$u118789660; _gcl_au=1.1.959568947.1759024995; _ga=GA1.1.1973053031.1759024995; _fbp=fb.1.1759024995133.277769713183196612; OnUZrYU=8660b55f-1921-4105-9053-0eac26b603a6:::2; OnUZjl=0:::2; _tt_enable_cookie=1; _ttp=01K670YQEKD8Z3TG6XWEWR7ENQ_.tt.1; ttcsid=1759024995800::xmU1g4pjXm78_jUMEcFd.1.1759024998817.0; ttcsid_C6FHHKC6J7TKPDBOTDQ0=1759024995799::UgCHUTaTTf70N_OAjM9A.1.1759024998817.0; ttcsid_D20AG53C77U1VHRJLGI0=1759024995801::tVCfYPg_MrX-oJUyIguD.1.1759024998817.0; _ga_4EMPR7MB94=GS2.1.s1759024994^$o1^$g0^$t1759025014^$j40^$l0^$h0; _ga_0737X10FYD=GS2.1.s1759024994^$o1^$g1^$t1759025014^$j40^$l0^$h0; _clck=3wob5u%5E2%5Eg03%5E0%5E2078; _clsk=1hgqi98%5E1760251042158%5E1%5E1%5Eq.clarity.ms%2Fcollect; __Host-next-auth.csrf-token=19bce9f3ed2b59561516ffec65bc4515ae4001365f7742006ccf669b63da7fcf%7C921803a5c8cd597501d62c8f1e4577e008f45592bba380f8e53c7707b6a34b24; __Secure-next-auth.callback-url=https%3A%2F%2Fresonance.dibimbing.id%2Flogin; __Secure-next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..NjTlEvm6-UKrTe0H.CB5oKsoNnBYoOomf2K-7zpZ6ob3i_jpVRfxLqc-gV7M4iasq5-XqrO2aJv0fjyhkKBxby3SS1V-bhi5dwZvHU6Wk60vVHn7XUfuvovv0qRtR8Ssk9RW_32Z8CepvfCN4unQgzsMSexCn_i81zSiVjzMEkei1A52w3s7zbkCszBJCE0qI-2GXIIQ6HA2FWbbeWbV8w0XoiJcVUIwU9yXbA2adX0yDsWmqdwrzfigvGdxFI9j_jTv27iRkb3Bde5NGLRZwD7ToOe5H3Q70ON7IGlfAFQqB9g.RNqI8vtk-zc3kSGuRModXA"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"0\": {\r\n        \"json\": {\r\n            \"title\": \"Error Image 3\",\r\n            \"description\": \"Image kosong pada ikon rekaman latihan\",\r\n            \"attachment\": \"\",\r\n            \"isPublic\": true\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://resonance.dibimbing.id/api/trpc/ticket.createTicket?batch=1",
+					"protocol": "https",
+					"host": [
+						"resonance",
+						"dibimbing",
+						"id"
+					],
+					"path": [
+						"api",
+						"trpc",
+						"ticket.createTicket"
+					],
+					"query": [
+						{
+							"key": "batch",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
