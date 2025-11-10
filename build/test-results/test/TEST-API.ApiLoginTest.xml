@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API.ApiLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-03T13:53:34.563Z" hostname="IVANNA" time="4.79">
+  <properties/>
+  <testcase name="Login" classname="API.ApiLoginTest" time="4.79"/>
+  <system-out><![CDATA[Response: {"ok":true,"token":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..W485M-avhOrMHQ3w.fWvOpnrze3dx7UID8dSxEScgGSHde7FcAG5GgqsMan-W9dcnIs6L-NkGMpBpcVfRlk7dNJtL8amtzo6hpCLi2ItsJZBROu4bNnPeLDe4NJ3ClNQodmMOwqewIuCHvOOSZDzJU5XTJ1gGqO9pzyipIOfxkBNwhwxKMpnmKwwdY9Q5RXRlKeJ5ti_cLjp16BGc9_-N3ShEqY8LjhHFuEQCTRQClBGGJv6w6r-0PQpzzssgXqhN.MdMqgnbDNJo1LIo9nrzs3g","user":{"id":"cmgksgqeb0000l5046cja2gt6","email":"adrynivannatoban@gmail.com","nickname":null,"role":"USER"}}
+Token: eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..W485M-avhOrMHQ3w.fWvOpnrze3dx7UID8dSxEScgGSHde7FcAG5GgqsMan-W9dcnIs6L-NkGMpBpcVfRlk7dNJtL8amtzo6hpCLi2ItsJZBROu4bNnPeLDe4NJ3ClNQodmMOwqewIuCHvOOSZDzJU5XTJ1gGqO9pzyipIOfxkBNwhwxKMpnmKwwdY9Q5RXRlKeJ5ti_cLjp16BGc9_-N3ShEqY8LjhHFuEQCTRQClBGGJv6w6r-0PQpzzssgXqhN.MdMqgnbDNJo1LIo9nrzs3g
+Success save in resources/json/token.json
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

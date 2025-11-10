@@ -1,0 +1,192 @@
+–Response: {"ok":true,"token":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..W485M-avhOrMHQ3w.fWvOpnrze3dx7UID8dSxEScgGSHde7FcAG5GgqsMan-W9dcnIs6L-NkGMpBpcVfRlk7dNJtL8amtzo6hpCLi2ItsJZBROu4bNnPeLDe4NJ3ClNQodmMOwqewIuCHvOOSZDzJU5XTJ1gGqO9pzyipIOfxkBNwhwxKMpnmKwwdY9Q5RXRlKeJ5ti_cLjp16BGc9_-N3ShEqY8LjhHFuEQCTRQClBGGJv6w6r-0PQpzzssgXqhN.MdMqgnbDNJo1LIo9nrzs3g","user":{"id":"cmgksgqeb0000l5046cja2gt6","email":"adrynivannatoban@gmail.com","nickname":null,"role":"USER"}}
+ Token: eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..W485M-avhOrMHQ3w.fWvOpnrze3dx7UID8dSxEScgGSHde7FcAG5GgqsMan-W9dcnIs6L-NkGMpBpcVfRlk7dNJtL8amtzo6hpCLi2ItsJZBROu4bNnPeLDe4NJ3ClNQodmMOwqewIuCHvOOSZDzJU5XTJ1gGqO9pzyipIOfxkBNwhwxKMpnmKwwdY9Q5RXRlKeJ5ti_cLjp16BGc9_-N3ShEqY8LjhHFuEQCTRQClBGGJv6w6r-0PQpzzssgXqhN.MdMqgnbDNJo1LIo9nrzs3g
++Success save in resources/json/token.json
+ ====== eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..W485M-avhOrMHQ3w.fWvOpnrze3dx7UID8dSxEScgGSHde7FcAG5GgqsMan-W9dcnIs6L-NkGMpBpcVfRlk7dNJtL8amtzo6hpCLi2ItsJZBROu4bNnPeLDe4NJ3ClNQodmMOwqewIuCHvOOSZDzJU5XTJ1gGqO9pzyipIOfxkBNwhwxKMpnmKwwdY9Q5RXRlKeJ5ti_cLjp16BGc9_-N3ShEqY8LjhHFuEQCTRQClBGGJv6w6r-0PQpzzssgXqhN.MdMqgnbDNJo1LIo9nrzs3g
+Response: [
+    {
++        "id": "cmg67836b000hi904o33vrpee",
+1        "createdAt": "2025-09-30T06:50:59.219Z",
+1        "updatedAt": "2025-09-30T06:50:59.219Z",
+2        "updatedBy": "cmg6783250002i9044v09cev6",
+6        "title": "Lampu lorong lantai 2 sering mati",
+Å        "description": "Lampu di lorong lantai 2 sering mati pada malam hari, membuat area menjadi gelap dan rawan kecelakaan.",
+        "attachment": null,
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmg6783250002i9044v09cev6",
+        "departmentId": null,
+        "voteCount": 7,
+        "user": {
+/            "id": "cmg6783250002i9044v09cev6",
+*            "email": "user1@example.com",
+"            "fullname": "User 1",
+!            "username": "user1",
+            "role": "USER",
+!            "nickname": "User1",
+6            "verifiedAt": "2025-09-30T06:50:59.067Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmg67837y000yi904spi68b89",
+1        "createdAt": "2025-09-30T06:50:59.279Z",
+1        "updatedAt": "2025-09-30T06:50:59.279Z",
+2        "updatedBy": "cmg6783250002i9044v09cev6",
+4        "title": "Wifi ruang meeting sering putus",
+Y        "description": "Koneksi wifi di ruang meeting sering terputus saat presentasi.",
+        "attachment": null,
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmg6783250002i9044v09cev6",
+        "departmentId": null,
+        "voteCount": 4,
+        "user": {
+/            "id": "cmg6783250002i9044v09cev6",
+*            "email": "user1@example.com",
+"            "fullname": "User 1",
+!            "username": "user1",
+            "role": "USER",
+!            "nickname": "User1",
+6            "verifiedAt": "2025-09-30T06:50:59.067Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmgdet76c000hjv046tbwp6r4",
+1        "createdAt": "2025-10-05T07:57:44.722Z",
+1        "updatedAt": "2025-10-05T07:57:44.722Z",
+2        "updatedBy": "cmgdd9w8q000ajv04b5hoa0au",
+!        "title": "createticket",
+        "description": "abc",
+        "attachment": "",
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmgdd9w8q000ajv04b5hoa0au",
+        "departmentId": null,
+        "voteCount": 3,
+        "user": {
+/            "id": "cmgdd9w8q000ajv04b5hoa0au",
+-            "email": "rizki.dmhm@gmail.com",
+.            "fullname": "Rizki Bimbing Guys",
+.            "username": "rizki-bimbing-guys",
+            "role": "USER",
+            "nickname": null,
+6            "verifiedAt": "2025-10-05T07:57:04.668Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmgkyy21y0005k504bcby84qi",
+1        "createdAt": "2025-10-10T14:55:46.917Z",
+1        "updatedAt": "2025-10-10T14:55:46.917Z",
+2        "updatedBy": "cmgi2p68i0000l404r7at2ott",
+"        "title": "error message",
+A        "description": "error message yang keluar tidak sesuai",
+        "attachment": "",
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmgi2p68i0000l404r7at2ott",
+        "departmentId": null,
+        "voteCount": 2,
+        "user": {
+/            "id": "cmgi2p68i0000l404r7at2ott",
+3            "email": "adrihartanto1807@gmail.com",
++            "fullname": "adrian hartanto",
++            "username": "adrian-hartanto",
+            "role": "USER",
+            "nickname": null,
+6            "verifiedAt": "2025-10-25T10:32:46.051Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmgl0dglg0001l104stmra3en",
+1        "createdAt": "2025-10-10T15:35:45.167Z",
+1        "updatedAt": "2025-10-10T15:35:45.167Z",
+2        "updatedBy": "cmgi2p68i0000l404r7at2ott",
+"        "title": "error message",
+2        "description": "No description provided",
+        "attachment": "",
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmgi2p68i0000l404r7at2ott",
+        "departmentId": null,
+        "voteCount": 0,
+        "user": {
+/            "id": "cmgi2p68i0000l404r7at2ott",
+3            "email": "adrihartanto1807@gmail.com",
++            "fullname": "adrian hartanto",
++            "username": "adrian-hartanto",
+            "role": "USER",
+            "nickname": null,
+6            "verifiedAt": "2025-10-25T10:32:46.051Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmgiw23aw0001l705hf6fg3or",
+1        "createdAt": "2025-10-09T03:59:23.959Z",
+1        "updatedAt": "2025-10-26T03:05:17.347Z",
+2        "updatedBy": "cmgfyfqdm0000lf04agjwb32b",
+-        "title": "Lampu lorong kedap kedip",
+5        "description": "lampu lorong kedap kedippp",
+        "attachment": "",
+!        "expectedSolveAt": null,
+        "isPublic": true,
+0        "solvedAt": "2025-10-26T03:05:08.725Z",
+/        "userId": "cmgfyfqdm0000lf04agjwb32b",
+        "departmentId": null,
+        "voteCount": 0,
+        "user": {
+/            "id": "cmgfyfqdm0000lf04agjwb32b",
+3            "email": "tunjungsihselvia@gmail.com",
+"            "fullname": "selvia",
+"            "username": "selvia",
+            "role": "USER",
+            "nickname": null,
+6            "verifiedAt": "2025-10-07T11:30:47.781Z",
+!            "departmentId": null
+
+        }
+    },
+    {
++        "id": "cmg6783a4001mi904lqqv3ig7",
+1        "createdAt": "2025-09-30T06:50:59.357Z",
+1        "updatedAt": "2025-09-30T06:50:59.357Z",
+2        "updatedBy": "cmg67834a0008i904uejdjnr8",
+.        "title": "Kursi rusak di ruang B401",
+Ü        "description": "Sebuah kursi yang dulu setia menopang tubuh kini remuk tak berdaya, kakinya pincang seperti prajurit tua yang kalah di medan perang. Kayu yang harusnya kokoh berubah jadi retakan, menjerit lirih tiap kali disentuh. Ia bukan sekadar kursi rusak‚Äîia simbol dari kenyamanan yang terenggut, dari janji ruang kerja yang retak di sudutnya. Dan laporan ini adalah teriakan agar ia tak terus terbengkalai, agar tempat duduk itu kembali menjadi singgasana kecil bagi siapa pun yang menaruh lelahnya.",
+        "attachment": null,
+!        "expectedSolveAt": null,
+        "isPublic": true,
+        "solvedAt": null,
+/        "userId": "cmg67834a0008i904uejdjnr8",
+        "departmentId": null,
+        "voteCount": 0,
+        "user": {
+/            "id": "cmg67834a0008i904uejdjnr8",
+*            "email": "user4@example.com",
+"            "fullname": "User 4",
+!            "username": "user4",
+            "role": "USER",
+!            "nickname": "User4",
+6            "verifiedAt": "2025-09-30T06:50:59.067Z",
+!            "departmentId": null
+
+        }
+    }
+]
+  XNov 03, 2025 8:53:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  9WARNING: Unable to find CDP implementation matching 141
+  RNov 03, 2025 8:53:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+  ˆWARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.

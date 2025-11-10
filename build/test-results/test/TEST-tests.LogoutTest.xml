@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LogoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-03T13:54:30.647Z" hostname="IVANNA" time="3.471">
+  <properties/>
+  <testcase name="testLogout" classname="tests.LogoutTest" time="3.471"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

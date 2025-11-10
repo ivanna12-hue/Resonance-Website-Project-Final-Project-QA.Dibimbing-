@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="E2E" verbose="1" parallel="false">
+    <test name="E2E">
+        <classes>
+            <class name="API.ApiLoginTest"/>
+            <class name="API.GetMyTicketsTest"/>
+            <class name="tests.LoginInvalidTest"/>
+            <class name="tests.LoginValidTest"/>
+            <class name="tests.createTicket"/>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
